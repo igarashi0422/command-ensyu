@@ -12,5 +12,13 @@ public class Main {
     double bmi = weight / (height * height);
 
     System.out.println(String.format("%.2f",bmi));
+        System.out.print("身長(m)");
+    double height2 = stdIn.nextDouble();
+    System.out.print("体重");
+    double weight2 = stdIn.nextDouble();
+
+    double bmi2 = weight2 / (height2 * height2);
+
+    System.out.println(String.format("%.2f",bmi2));
   }
 }
